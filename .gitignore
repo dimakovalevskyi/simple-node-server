@@ -35,3 +35,9 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Generated js and css
+src/js/*
+!src/js/src
+src/css/*
+!src/css/src

@@ -1,0 +1,31 @@
+{
+  "name": "simple-node-server",
+  "version": "0.0.9",
+  "description": "Simple server based on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "grunt && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimakovalevskyi/simple-node-server.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "server",
+    "express"
+  ],
+  "author": "Dmytro Kovalevskyi <dimakovalevskyi@gmail.com> (https://dimakovalevskyi.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimakovalevskyi/simple-node-server/issues"
+  },
+  "homepage": "https://github.com/dimakovalevskyi/simple-node-server#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
